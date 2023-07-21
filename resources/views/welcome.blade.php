@@ -136,10 +136,10 @@
         }
         .form{
             width: 250px;
-            height: 350px;
+            height: 380px;
             background: #072E33;
             position: absolute;
-            top: 150px;
+            top: 100px;
             left: 870px;
 
             border-radius: 10px;
@@ -190,6 +190,7 @@
             color: black;
             font-weight: bold;
         }
+
 
         .form.link{
             font-family: Arial, Helvetica, sans-serif;
@@ -300,7 +301,7 @@
                 <input type="password" name="" placeholder="Enter password here">
                 <button class="btnn"><a href="#" >Login</a></button>
                 <p class="link" style="color: white;"><br>Don't have an account?<br>
-                    <a href="http://127.0.0.1:8000/register"  style="color: white; font-size: 15px;">Sign up here</a></p>
+                    <a href="http://127.0.0.1:8000/register"  style="color: crimson; font-size: 15px;">Sign up here</a></p>
                 <p class="liw" >Login with</p>
                 <div class="icons">
                     <a href="https://www.facebook.com/login.php"><i class="fa-brands fa-facebook"></i></a>

@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title> Responsive Registration Form</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
@@ -159,7 +158,7 @@
 </head>
 <body>
 <div class="container">
-    <div class="title">Registration</div>
+    <div class="title">Sign Up</div>
     <div class="content">
         <form action="#">
             <div class="user-details">
