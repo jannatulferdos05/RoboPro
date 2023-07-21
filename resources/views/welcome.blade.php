@@ -15,18 +15,21 @@
             padding: 0px;
         }
         body{
+            font-family:sans;
             margin: 0px;
             /* background-image: url("home.jpg");*/
             background-repeat: no-repeat;
-            background-color: wheat;
+            background-color: white;
             background-size: cover;
             width:100%;
             height: 100vh;
         }
 
         .navbar{
-            width: 1250px;
-            height: 53px;
+            box-shadow: 0 0 3px gray;
+            width: 1300px;
+            height: 56px;
+            padding-bottom: 8px;
         }
         .icon{
             width: 270px;
@@ -35,7 +38,7 @@
         }
 
         .logo{
-            color: teal;
+            color: #451952;
             font-size: 45px;
             font-family: "Apple Color Emoji";
             padding-left: 40px;
@@ -44,6 +47,7 @@
         }
 
         .menue{
+
             width: 640px;
             padding-left: 20px;
             float: left;
@@ -65,7 +69,7 @@
         ul li a{
             text-decoration: none;
             color: black;
-            font-family: Arial;
+            font-family: sans;
             font-weight: bold;
             transition: 0.4s ease-in-out;
             cursor: pointer;
@@ -96,13 +100,11 @@
         .btn{
             width: 100px;
             height: 35px;
-            background: teal;
+            background: #072E33;
             font-size: 15px;
-            border: 2px solid teal;
+            border: 2px solid #072E33;
             color: #fff;
             margin-top: 20px;
-            border-radius: 4px;
-            border-bottom-right-radius: 5px;
         }
         .btn:focus{
             outline: none;
@@ -135,9 +137,9 @@
         .form{
             width: 250px;
             height: 350px;
-            background: teal;
+            background: #072E33;
             position: absolute;
-            top: 180px;
+            top: 150px;
             left: 870px;
 
             border-radius: 10px;
@@ -164,13 +166,13 @@
             outline: none;
         }
         ::placeholder{
-            color: black;
+            color: whitesmoke;
             font-family: Arial;
         }
         .btnn{
             width: 240px;
             height: 40px;
-            background: #ffffff;
+            background: white;
             border: none;
             margin-top: 30px;
             font-size: 18px;
@@ -188,6 +190,7 @@
             color: black;
             font-weight: bold;
         }
+
         .form.link{
             font-family: Arial, Helvetica, sans-serif;
             font-size: 17px;
@@ -200,12 +203,68 @@
             text-align: center;
         }
         .liw{
+            color: white;
             padding-top: 15px;
             padding-bottom: 10px;
             text-align: center;
         }
+        .latest{
+            margin-top: 5px;
+            padding-top: 0px;
+            padding-left: 40px;
+            width: 635px;
+        }
 
-    </style>
+        .latest-list{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+            width: 700px;
+            grid-gap: 20px;
+            margin-top: 0px;
+        }
+        .latest-list div{
+            background: whitesmoke;
+            padding: 40px;
+            font-size: 13px;
+            font-weight: bolder;
+            border-right: 10px;
+            box-shadow: 0 0 10px gray;
+            transition: 0.3s;
+            width: 70px;
+            height: 70px;
+            margin-top: 30px;
+        }
+        .latest-list div:hover{
+            box-shadow: 0 0 15px gray;
+        }
+        .latest-list div h4{
+            color: white;
+            font-size: 15px;
+            font-weight: bolder;
+            margin-bottom: 0px;
+        }
+        .latest-list div a{
+            text-decoration: none;
+            color: teal;
+            font-size: 12px;
+            margin-top: 5px;
+            display: inline-block;
+        }
+        .latest-list div a:hover{
+            color: orangered;
+        }
+        .icons{
+            margin-top: 5px;
+        }
+        .icons a{
+            text-decoration: none;
+            font-size: 30px;
+            color: #ababab;
+            display: inline-block;
+            padding-left: 15px;
+
+        }
+</style>
 
 </head>
 
@@ -231,41 +290,61 @@
     </div>
 
         <div class="content">
-            <h1>Robotics & Competitive <span>Programming</span><br>improvement</h1>
+            <h3>Robotics & Competitive <span>Programming</span><br>improvement</h3>
             <p class="par">To learn robotics and competitive programming also managing those club as well,
                 it will help you.
             </p>
             <div class="form">
-                <h2 style="color: Black">Login Here</h2>
+                <h2 style="color: white; padding-left: 50px;">Login Here</h2>
                 <input type="email" name="email" placeholder="Enter e-mail here">
                 <input type="password" name="" placeholder="Enter password here">
-                <button class="btnn"><a href="#linear-gradient(to top,rgba(0,0,0,0)50%,rgba(0,0,0,0)50%)">Login</a></button>
-                <p class="link">Don't have an account?<br>
-                    <a href="#"  style="color: white">Sign up here</a></p>
-                <p class="liw">Login with</p>
-                <div class="icon">
-                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-google"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-Twitter"></ion-icon></a>
-                    <a href="#"><ion-icon name="logo-skype"></ion-icon></a>
+                <button class="btnn"><a href="#" >Login</a></button>
+                <p class="link" style="color: white;"><br>Don't have an account?<br>
+                    <a href="#"  style="color: white; font-size: 15px;">Sign up here</a></p>
+                <p class="liw" >Login with</p>
+                <div class="icons">
+                    <a href="https://www.facebook.com/login.php"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-google"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-skype"></i></a>
                 </div>
             </div>
         </div>
 
-        <div class="latest">
-            <h1>Latest technologies</h1>
+        <div class="latest" style="color: #2d3748;">
+            <h4 style="margin-top: 20px; font-size: 1.5em;">Latest technologies</h4>
+            <hr>
+            <div class="latest-list" style="height: 400px; width: 700px; ">
+                <div style="background-image: url(ml.jpg); ">
+                    <h4>Machine Learning</h4>
+                    <a href="https://www.ibm.com/topics/machine-learning">Learn more</a>
+                </div>
+                <div style="background-image: url(dl.jpg);">
+                    <h4>Deep Learning</h4>
+                    <a href="https://www.ibm.com/topics/deep-learning">Learn more</a>
+                </div>
+                <div style="background-image: url(blockchain1.jpeg);">
+                    <h4>Block Chain</h4>
+                    <a href="https://www.ibm.com/topics/blockchain">Learn more</a>
+                </div>
+                <div style="background-image: url('ai.jpg'); background-size: cover;">
+                    <h4>Artifial Intelligence</h4>
+                    <a href="https://www.ibm.com/topics/artificial-intelligence">Learn more</a>
+                </div>
+                <div style="background-image: url(nj.jpg); background-size: cover;">
+                    <h4>Node <br>JS</h4>
+                    <a href="https://nodejs.org/en/about">Learn more</a>
+                </div>
+                <div style="background-image: url(nn.jpg);">
+                    <h4>Neural Networking</h4>
+                    <a href="https://www.ibm.com/topics/neural-networks">Learn more</a>
+                </div>
 
-
-
-
-
-            
+            </div>
         </div>
 
-    <script src="https::/unpkg.com/ionicons@5.4.0/dist/ionicons.js">
-
-    </script>
+    <script src="https://kit.fontawesome.com/4aeccc6928.js" crossorigin="anonymous"></script>
 
 </body>
 

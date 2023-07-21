@@ -23,8 +23,10 @@
         }
 
         .navbar{
-            width: 1250px;
-            height: 53px;
+            width: 1300px;
+            box-shadow: 0 0 3px gray;
+            height: 56px;
+            padding-bottom: 8px;
         }
         .icon{
             width: 270px;
