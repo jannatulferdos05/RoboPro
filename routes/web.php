@@ -28,3 +28,6 @@ Route::any('/home',function (){
 Route::any('/about',function (){
     return view('about');
 });
+Route::any('/register',function (){
+    return view('register');
+});
